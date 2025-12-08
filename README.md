@@ -1,1 +1,1 @@
-Second section model Mogo
+Model MoGo

@@ -1,6 +1,70 @@
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+/*section Mogo header*/
+
+.mogo {
+  width: 100%;
+  height: 45px;
+  margin-top: 17px;
+}
+
+.mogo-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Mogo name*/
+
+.mogo-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #95E1D3;
+  display: flex;
+}
+
+/*Mogo navigation*/
+
+.mogo-nav_list {
+  display: flex;
+  align-items: center;
+}
+
+.mogo-nav_link:nth-child(4) {
+  margin-right: 33px;
+}
+
+#mogo-nav_link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #95E1D3;
+  margin-right: 55px;
+}
+
+#mogo-nav_link:hover  {
+  color: #F38181;
+}
+
+.mogo-nav_link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #95E1D3;
+  margin-right: 55px;
+}
+
+.mogo-nav_link:hover  {
+  color: #F38181;
+}
+
+.mogo_rectangle {
+  width: 50px;
+  height: 3px;
+  background-color: #F38181;
+  margin-top: 10px;
 }
 
 /*section We work wiht*/
@@ -29,7 +93,6 @@
   width: 60px;
   height: 4px;
   background-color: #F38181;
-  border: #F38181;
   margin-bottom: 65px;
 }
 
@@ -61,15 +124,12 @@
   display: flex;
   width: 331.78px;
   height: 74px;
+  margin-bottom: 105px;
 }
 
 .line-1 {
   display: flex;
   justify-content: space-between;
-}
-
-.line-2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 105px 0 100px 0;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
 }
