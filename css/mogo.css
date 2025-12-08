@@ -135,13 +135,17 @@
 
 /*Who we are*/
 
+.who-we-are {
+  justify-content: center;
+}
+
 .who-we-are_info-block {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 1104px;
   height: 221px;
-  margin: 0 0 27px 0;
+  margin: 0 48px 27px 48px;
 }
 
 .who-we-are_title {
