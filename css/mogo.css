@@ -276,6 +276,7 @@
   height: 39px;
   border: 1px solid #B6B6B6;
   box-sizing: border-box;
+  padding-left: 10px;
 }
 
 .footer_form button {
