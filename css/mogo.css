@@ -2,6 +2,11 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+html {
+  font-size: 15px;
+}
+
 /*section Mogo header*/
 
 .mogo {
@@ -19,7 +24,7 @@
 
 .mogo-name {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   color: #95E1D3;
   display: flex;
@@ -38,7 +43,7 @@
 
 #mogo-nav_link {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 0.93rem;
   font-weight: 400;
   color: #95E1D3;
   margin-right: 55px;
@@ -50,7 +55,7 @@
 
 .mogo-nav_link {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 0.93rem;
   font-weight: 400;
   color: #95E1D3;
   margin-right: 55px;
@@ -78,15 +83,16 @@
 
 .we-work-with_title-1 {
   font-family: "kaushan script", cursive;
-  font-size: 24px;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
 .we-work-with_title-2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   padding: 20px 0 40px 0;
+  text-transform: uppercase;
 }
 
 .we-work-with_rectangle-1 {
@@ -101,14 +107,14 @@
 .photography {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 0.93rem;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
 .lorem {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 22px;
   color: #B6B6B6;
@@ -156,7 +162,7 @@
 
 .who-we-are_title-1 {
   font-family: "kaushan script", cursive;
-  font-size: 24px;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #333333;
   margin-bottom: 17px;
@@ -179,7 +185,7 @@
 
 .who-we-are_lorem {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   color: #B6B6B6;
   text-align: center;
@@ -207,7 +213,7 @@
 
 .card-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 0.93rem;
   font-weight: 400;
   color: #333333;
   text-transform: uppercase;
@@ -215,7 +221,7 @@
 
 .card-paragraph {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 300;
   color: #B6B6B6;
   font-style: italic;
@@ -243,7 +249,7 @@
 
 .footer_text {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 0.93rem;
   font-weight: 400;
 }
 
@@ -265,7 +271,7 @@
 
 .footer_form input::placeholder {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 0.93rem;
   font-weight: 300;
   color: #B6B6B6;
   font-style: italic;
@@ -285,7 +291,7 @@
   background-color: #95E1D3;
   border: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 0.93rem;
   font-weight: 700;
   color: #FFFFFF;
   cursor: pointer;
