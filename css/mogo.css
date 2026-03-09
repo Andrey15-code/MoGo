@@ -35,33 +35,37 @@ html {
 .mogo-nav_list {
   display: flex;
   align-items: center;
+  gap: 55px;
+  flex-wrap: wrap;
 }
 
-.mogo-nav_link:nth-child(4) {
-  margin-right: 33px;
-}
-
-#mogo-nav_link {
+.mogo-nav_link_item {
   font-family: "Montserrat", sans-serif;
   font-size: 0.93rem;
   font-weight: 400;
   color: #95E1D3;
-  margin-right: 55px;
-}
-
-#mogo-nav_link:hover  {
-  color: #F38181;
 }
 
 .mogo-nav_link {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.93rem;
-  font-weight: 400;
-  color: #95E1D3;
-  margin-right: 55px;
+  position: relative;
 }
 
-.mogo-nav_link:hover  {
+.mogo-nav_link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 4px;
+  background-color: #F38181;
+  transition: width 0.3s ease;
+}
+
+.mogo-nav_link:hover::after {
+  width: 100%;
+}
+
+.mogo-nav_link_item:hover  {
   color: #F38181;
 }
 
@@ -138,7 +142,8 @@ html {
   display: flex;
   width: 331.78px;
   height: 74px;
-  margin-bottom: 105px;
+  padding-bottom: 105px;
+  margin: 0 auto;
 }
 
 .line-1 {
@@ -202,33 +207,37 @@ html {
 /*who we are cards*/
 
 .who-we-are_card-man {
-  width: 1200px;
-  height: 546px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+
 }
 
 .card-man {
   width: 380px;
-  height: 546px;
   text-align: center;
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
 
 .card-img {
   width: 380px;
   height: 470px;
+  object-fit: contain;
 }
 
 .card-man-wrap {
-  width: 380px;
+  max-width: 380px;
   height: 470px;
   position: relative;
+  object-fit: contain;
 }
 
 .card-man-wrap .card-img {
   width: 100%;
   height: 100%;
   display: block;
+  object-fit: contain;
 }
 
 .card-man-icon {
@@ -243,7 +252,7 @@ html {
 
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(180deg, rgba(243, 129, 129, 0.5) 0%, rgba(253, 187, 45, 0.5) 100%);;
+  background-image: linear-gradient(180deg, rgba(243, 129, 129, 0.5) 0%, rgba(253, 187, 45, 0.5) 100%);
   opacity: 0;
   transition: opasituy 0.3s ease;
 
