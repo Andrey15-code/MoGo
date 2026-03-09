@@ -11,8 +11,7 @@ html {
 
 .mogo {
   width: 100%;
-  height: 45px;
-  margin-top: 17px;
+  padding: 17px;
 }
 
 .mogo-header {
@@ -28,6 +27,7 @@ html {
   font-weight: 700;
   color: #95E1D3;
   display: flex;
+  padding: 0 10px 0 10px;
 }
 
 /*Mogo navigation*/
@@ -35,8 +35,9 @@ html {
 .mogo-nav_list {
   display: flex;
   align-items: center;
-  gap: 55px;
   flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
 }
 
 .mogo-nav_link_item {
@@ -162,8 +163,7 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 1104px;
-  height: 221px;
+  flex-wrap: wrap;
   margin: 0 48px 27px 48px;
 }
 
@@ -221,9 +221,7 @@ html {
 }
 
 .card-img {
-  width: 380px;
-  height: 470px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .card-man-wrap {
@@ -304,14 +302,14 @@ html {
 }
 
 .footer_items{
-  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer_rectangle-3 {
-  width: 1200px;
+  width: 100%;
   height: 1px;
   background-color: #B6B6B6;
   margin: 0 0 10px 0;
@@ -321,6 +319,8 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 0.93rem;
   font-weight: 400;
+  padding: 10px 0 10px 0;
+  margin: 0 auto;
 }
 
 .text {
@@ -332,12 +332,10 @@ html {
 .footer_form {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-.footer_form {
-  width: 380px;
-  height: 39px;
-}
 
 .footer_form input::placeholder {
   font-family: "Roboto", sans-serif;
